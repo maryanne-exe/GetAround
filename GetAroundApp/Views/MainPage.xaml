@@ -14,8 +14,8 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="500" />
-                        <RowDefinition Height="100" />
-                        <RowDefinition Height="100" />
+                        <RowDefinition Height="80" />
+                        <RowDefinition Height="130" />
                     </Grid.RowDefinitions>
                     
                     <BoxView

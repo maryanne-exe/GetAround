@@ -3,35 +3,90 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GetAroundApp.Views.ItemDetailPage"
              Title="{Binding Title}">
-<!--    <StackLayout Spacing="20" Padding="15">
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" FontSize="Small" />
-        <Label Text="Description:" FontSize="Medium" />
-        <Label Text="{Binding Item.Description}" FontSize="Small" />
-    </StackLayout>-->
 
-    <ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="500" />
-                <RowDefinition Height="100" />
-                <RowDefinition Height="100" />
-            </Grid.RowDefinitions>
-            
-            <BoxView
-                Grid.Row="0" Grid.Column="0"
-                BackgroundColor="#5da9e8"
-                />
-            <BoxView
-                Grid.Row="1" Grid.Column="0"
-                BackgroundColor="#fff"
-                 />
-            <BoxView
-                Grid.Row="2" Grid.Column="0"
-                BackgroundColor="#5da9e8"
-                 />
-        </Grid>
+    
+    <StackLayout Spacing="20" Padding="15">
         
-    </ContentPage.Content>
+        <Label Text="First Trip" FontSize="Medium" />
+        <Picker Title="Commuter Rail"
+                Margin="10, 0">
+            <Picker.Items>
+                <x:String>Commuter Rail</x:String>
+                <x:String>Bus</x:String>
+                <x:String>Subway</x:String>
+                <x:String>Ferry</x:String>
+            </Picker.Items>
+        </Picker>
+        <Picker Title="From"
+                Margin="10, 0">
+            <Picker.Items>
+                <x:String>Schedule</x:String>
+            </Picker.Items>
+        </Picker>
+       <!-- <Image Source="rail.svg" />-->
+        <Picker Title="To"
+                Margin="10, 0">
+            <Picker.Items>
+                <x:String>Schedule</x:String>
+            </Picker.Items>
+        </Picker>
+        <TimePicker Margin="10, 0">  
+        </TimePicker>
+
+        <Label Text="Second Trip" FontSize="Medium" />
+        <Picker Title="Ferry"
+                Margin="10, 0">
+            <Picker.Items>
+                <x:String>Commuter Rail</x:String>
+                <x:String>Bus</x:String>
+                <x:String>Subway</x:String>
+                <x:String>Ferry</x:String>
+            </Picker.Items>
+        </Picker>
+        <Picker Title="From"
+                Margin="10, 0">
+            <Picker.Items>
+                <x:String>Schedule</x:String>
+            </Picker.Items>
+        </Picker>
+       <!-- <Image Source="rail.svg" />-->
+        <Picker Title="To"
+                Margin="10, 0">
+            <Picker.Items>
+                <x:String>Schedule</x:String>
+            </Picker.Items>
+        </Picker>
+        <TimePicker Margin="10, 0">  
+        </TimePicker>
+
+        <Label Text="Third Trip" FontSize="Medium" />
+        <Picker Title="Bus"
+                Margin="10, 0">
+            <Picker.Items>
+                <x:String>Commuter Rail</x:String>
+                <x:String>Bus</x:String>
+                <x:String>Subway</x:String>
+                <x:String>Ferry</x:String>
+            </Picker.Items>
+        </Picker>
+        <Picker Title="From"
+                Margin="10, 0">
+            <Picker.Items>
+                <x:String>Schedule</x:String>
+            </Picker.Items>
+        </Picker>
+       <!-- <Image Source="rail.svg" />-->
+        <Picker Title="To"
+                Margin="10, 0">
+            <Picker.Items>
+                <x:String>Schedule</x:String>
+            </Picker.Items>
+        </Picker>
+        <TimePicker Margin="10, 0">  
+        </TimePicker>
+        
+    </StackLayout>
+
+
     
 </ContentPage>

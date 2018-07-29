@@ -3,20 +3,72 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:views="clr-namespace:GetAroundApp.Views"
             x:Class="GetAroundApp.Views.NewItemPage"
-            Title="New Item">
+            Title="Today">
 
     <ContentPage.Content>
         <ScrollView>
             <Grid>
-
-                <BoxView
+                <Label
+                    Text="Plymouth"
                     Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
-                    HeightRequest="250" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="Center" 
-                    Color="#b3000f" />
+                    HeightRequest="90" WidthRequest="75" HorizontalOptions="Center" VerticalOptions="Center"
+                    TextColor="#165c96"/>
                 <BoxView
-                    Grid.Row="3" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                    Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
                     HeightRequest="150" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="Center" 
                     Color="#145a06" />
+                <BoxView
+                    Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                    HeightRequest="24" WidthRequest="24" HorizontalOptions="Center" VerticalOptions="Center" 
+                    Color="#fff" />
+                <!--<Image Source="rail.svg" />-->
+                <Label
+                    Text="South Station"
+                    Grid.Row="2" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                    HeightRequest="55" WidthRequest="105" HorizontalOptions="Center" VerticalOptions="Center"
+                    TextColor="#165c96"/>
+
+                <Label
+                    Text="Boston (Long Wharf)"
+                    Grid.Row="2" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
+                    HeightRequest="60" WidthRequest="160" HorizontalOptions="Center" VerticalOptions="Center"
+                    TextColor="#165c96"/>
+                <BoxView
+                    Grid.Row="3" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                    HeightRequest="120" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="Center" 
+                    Color="#145a06" />
+                <BoxView
+                    Grid.Row="3" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                    HeightRequest="24" WidthRequest="24" HorizontalOptions="Center" VerticalOptions="Center" 
+                    Color="#fff" />
+                <Label
+                    Text="Hingham"
+                    Grid.Row="4" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
+                    HeightRequest="190" WidthRequest="70" HorizontalOptions="Center" VerticalOptions="Center"
+                    TextColor="#165c96"/>
+
+
+                <Label
+                    Text="Waterhouse St @ Massachusetts Ave"
+                    Grid.Row="5" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
+                    HeightRequest="140" WidthRequest="300" HorizontalOptions="Center" VerticalOptions="Center"
+                    TextColor="#165c96"/>
+                <BoxView
+                    Grid.Row="6" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                    HeightRequest="200" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="Center" 
+                    Color="#b3000f" />
+                <BoxView
+                    Grid.Row="6" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                    HeightRequest="24" WidthRequest="24" HorizontalOptions="Center" VerticalOptions="Center" 
+                    Color="#fff" />
+                <Label
+                    Text="Church St @ Lexington St"
+                    Grid.Row="7" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
+                    HeightRequest="100" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center"
+                    TextColor="#165c96"/>
+
+
+                
                 <Label
                     Grid.Row="0" Grid.Column="1"
                     Text="1 PM" FontSize="Medium"
