@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />  
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="1.8.0" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="1.8.0" />
+    <PackageReference Include="Microsoft.AppCenter" Version="1.8.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Views\ItemsPage.xaml.cs" />
+    <Compile Remove="Views\Timeline.cs" />
+    <Compile Remove="Views\Timeline.xaml.cs" />
+    <Compile Remove="Views\Map.xaml.cs" />
+    <Compile Remove="Views\MyPage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\Timeline.xaml" />
+    <EmbeddedResource Remove="Views\Map.xaml" />
+    <EmbeddedResource Remove="Views\MyPage.xaml" />
+  </ItemGroup>
+</Project>

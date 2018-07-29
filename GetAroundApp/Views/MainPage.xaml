@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:GetAroundApp.Views"
+             x:Class="GetAroundApp.Views.MainPage"
+             Title="Get Around">
+
+
+    
+    <ContentPage.Content>
+<!--        <Grid>
+            <BoxView
+                    BackgroundColor="#5da9e8"
+                    HeightRequest="Auto"
+                    WidthRequest="Auto" />
+        </Grid>
+-->
+        
+        
+        <RelativeLayout
+                HorizontalOptions="Center">
+            <StackLayout> 
+                <BoxView
+                    BackgroundColor="#5da9e8"
+                    HeightRequest="400"
+                    WidthRequest="380" />   <!--how to make it fill the whole thing?-->
+                <Button Margin="0, 10, 0, 0"
+                        FontFamily="Helvetica"
+                        TextColor="#5da9e8">
+                    <Button.Text>
+                        <OnPlatform x:TypeArguments="x:String" iOS="Connect iOS Calendar" Android="Connect Google Calendar" />
+                    </Button.Text>
+                </Button>
+                <BoxView
+                    Margin="0, 100, 0, 0"
+                    BackgroundColor="#5da9e8"
+                    HeightRequest="100"
+                    WidthRequest="380" />
+            </StackLayout>
+
+            <StackLayout>
+                <Label
+                    Text="MBTA"
+                    Margin="20, 100, 0, 0"
+                    FontFamily="Helvetica"
+                    Font="Bold, 15"
+                    TextColor="#fff" />
+                <Label
+                    Margin="20, -7, 0, 0"
+                    FontFamily="Helvetica"
+                    Font="Light, 15"
+                    TextColor="#fff">
+                    <Label.Text>
+                        <OnPlatform x:TypeArguments="x:String" iOS="Get Around for iOS" Android="Get Around for Android" />
+                    </Label.Text>
+                </Label>
+                <Label
+                    Text="Build your route for today"
+                    Margin="20, 5, 20, 0"
+                    FontFamily="Helvetica"
+                    Font="Bold, 65"
+                    TextColor="#ffe372">
+                </Label>
+            </StackLayout>
+                    
+
+        </RelativeLayout>
+    </ContentPage.Content>
+    
+   
+</ContentPage>
+
+
+
+

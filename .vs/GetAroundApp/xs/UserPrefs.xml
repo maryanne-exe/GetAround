@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{98B824B8-0CF8-4D82-8CDB-D99804AC6EAA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GetAroundApp/Views/MainPage.xaml">
+    <Files>
+      <File FileName="GetAroundApp/Views/MainPage.xaml" Line="8" Column="14" />
+      <File FileName="GetAroundApp/Views/NewItemPage.xaml" Line="69" Column="15" />
+      <File FileName="GetAroundApp/Views/ItemDetailPage.xaml" Line="17" Column="21" />
+      <File FileName="GetAroundApp/Views/Schedule.xaml" Line="8" Column="1" />
+      <File FileName="GetAroundApp/Views/MainPage.xaml.cs" Line="9" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GetAroundApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AF03FF2E-28BA-4BB3-A209-D5D9FBCC15A8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.GetAroundApp.Android PreferredExecutionTarget="Android.asdwqd" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+</Properties>

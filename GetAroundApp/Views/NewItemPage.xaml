@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:GetAroundApp.Views"
+            x:Class="GetAroundApp.Views.NewItemPage"
+            Title="New Item">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+
+                <BoxView
+                    Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
+                    HeightRequest="250" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="Center" 
+                    Color="#b3000f" />
+                <BoxView
+                    Grid.Row="3" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                    HeightRequest="150" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="Center" 
+                    Color="#145a06" />
+                <Label
+                    Grid.Row="0" Grid.Column="1"
+                    Text="1 PM" FontSize="Medium"
+                    FontFamily="Helvetica"
+                    HeightRequest="100" WidthRequest="60" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Label
+                    Grid.Row="1" Grid.Column="1"
+                    Text="2 PM" FontSize="Medium"
+                    FontFamily="Helvetica"
+                    HeightRequest="100" WidthRequest="60" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Label
+                    Grid.Row="2" Grid.Column="1"
+                    Text="3 PM" FontSize="Medium"
+                    FontFamily="Helvetica"
+                    HeightRequest="100" WidthRequest="60" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Label
+                    Grid.Row="3" Grid.Column="1"
+                    Text="4 PM" FontSize="Medium"
+                    FontFamily="Helvetica"
+                    HeightRequest="100" WidthRequest="60" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Label
+                    Grid.Row="4" Grid.Column="1"
+                    Text="5 PM" FontSize="Medium"
+                    HeightRequest="100" WidthRequest="60" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Label
+                    Grid.Row="5" Grid.Column="1"
+                    Text="6 PM" FontSize="Medium"
+                    FontFamily="Helvetica"
+                    HeightRequest="100" WidthRequest="60" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Label
+                    Grid.Row="6" Grid.Column="1"
+                    Text="7 PM" FontSize="Medium"
+                    FontFamily="Helvetica"
+                    HeightRequest="100" WidthRequest="60" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Label
+                    Grid.Row="7" Grid.Column="1"
+                    Text="8 PM" FontSize="Medium"
+                    FontFamily="Helvetica"
+                    HeightRequest="100" WidthRequest="60" HorizontalOptions="End" VerticalOptions="Start"/>
+                <Label
+                    Grid.Row="8" Grid.Column="1"
+                    Text=" PM" FontSize="Medium"
+                    FontFamily="Helvetica"
+                    HeightRequest="100" WidthRequest="60" HorizontalOptions="End" VerticalOptions="Start"/>
+        
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
