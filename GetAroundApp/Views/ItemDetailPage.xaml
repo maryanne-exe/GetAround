@@ -12,22 +12,24 @@
 
     <ContentPage.Content>
         <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="500" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            
             <BoxView
                 Grid.Row="0" Grid.Column="0"
                 BackgroundColor="#5da9e8"
-                HorizontalOptions="Fill"
-                HeightRequest="100" />
+                />
             <BoxView
                 Grid.Row="1" Grid.Column="0"
                 BackgroundColor="#fff"
-                HorizontalOptions="Fill"
                  />
             <BoxView
                 Grid.Row="2" Grid.Column="0"
                 BackgroundColor="#5da9e8"
-                HorizontalOptions="Fill"
                  />
-            
         </Grid>
         
     </ContentPage.Content>

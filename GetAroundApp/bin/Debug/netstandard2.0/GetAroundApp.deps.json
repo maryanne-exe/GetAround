@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "cb76c9d0569609cf7605872ddbc20ced869804ca"
+    "signature": "58e8cee710fb87430ebd94f154d8a8a72147d8b6"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,7 +12,7 @@
           "Microsoft.AppCenter": "1.8.0",
           "Microsoft.AppCenter.Analytics": "1.8.0",
           "Microsoft.AppCenter.Crashes": "1.8.0",
-          "NETStandard.Library": "2.0.1",
+          "NETStandard.Library": "2.0.3",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "runtime": {
@@ -21,7 +21,10 @@
       },
       "Microsoft.AppCenter/1.8.0": {
         "runtime": {
-          "lib/netstandard1.0/Microsoft.AppCenter.dll": {}
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.8.0.0"
+          }
         }
       },
       "Microsoft.AppCenter.Analytics/1.8.0": {
@@ -29,7 +32,10 @@
           "Microsoft.AppCenter": "1.8.0"
         },
         "runtime": {
-          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {}
+          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.8.0.0"
+          }
         }
       },
       "Microsoft.AppCenter.Crashes/1.8.0": {
@@ -37,20 +43,32 @@
           "Microsoft.AppCenter": "1.8.0"
         },
         "runtime": {
-          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {}
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.8.0.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
-      "NETStandard.Library/2.0.1": {
+      "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
       "Xamarin.Forms/3.0.0.482510": {
         "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
-          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
-          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
         }
       }
     }
@@ -89,12 +107,12 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
-    "NETStandard.Library/2.0.1": {
+    "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
-      "path": "netstandard.library/2.0.1",
-      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
     "Xamarin.Forms/3.0.0.482510": {
       "type": "package",

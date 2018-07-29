@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,5 +12,11 @@ namespace GetAroundApp.Views
         {
             InitializeComponent();
         }
+
+        private async void PressMeButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NewItemPage());
+        }
+
     }
 }

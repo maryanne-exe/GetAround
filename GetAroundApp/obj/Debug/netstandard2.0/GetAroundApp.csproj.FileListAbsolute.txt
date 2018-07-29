@@ -1,7 +1,6 @@
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp/bin/Debug/netstandard2.0/GetAroundApp.deps.json
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp/bin/Debug/netstandard2.0/GetAroundApp.dll
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp/bin/Debug/netstandard2.0/GetAroundApp.pdb
-/Users/maekzemp/Projects/GetAroundApp/GetAroundApp/obj/Debug/netstandard2.0/GetAroundApp.csprojResolveAssemblyReference.cache
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp/obj/Debug/netstandard2.0/GetAroundApp.csproj.CoreCompileInputs.cache
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp/obj/Debug/netstandard2.0/GetAroundApp.AssemblyInfoInputs.cache
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp/obj/Debug/netstandard2.0/GetAroundApp.AssemblyInfo.cs
