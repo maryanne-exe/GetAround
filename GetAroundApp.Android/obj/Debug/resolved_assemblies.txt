@@ -10,6 +10,7 @@
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/android/assets/Microsoft.AppCenter.dll
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/android/assets/mscorlib.dll
+/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/android/assets/Newtonsoft.Json.dll
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/android/assets/System.Core.dll
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/android/assets/System.dll
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/android/assets/System.Xml.dll

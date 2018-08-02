@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{98B824B8-0CF8-4D82-8CDB-D99804AC6EAA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GetAroundApp/Views/ItemDetailPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GetAroundApp/obj/Debug/netstandard2.0/Views/ItemDetailPage.xaml.g.cs">
     <Files>
-      <File FileName="GetAroundApp/Views/MainPage.xaml" Line="61" Column="45" />
-      <File FileName="GetAroundApp/Views/NewItemPage.xaml" Line="31" Column="39" />
-      <File FileName="GetAroundApp/Views/NewItemPage.xaml.cs" Line="37" Column="10" />
-      <File FileName="GetAroundApp/Views/ItemDetailPage.xaml.cs" Line="55" Column="13" />
-      <File FileName="GetAroundApp/Views/ItemDetailPage.xaml" Line="11" Column="42" />
-      <File FileName="GetAroundApp.iOS/Resources/Schedule.json" Line="14720" Column="4" />
-      <File FileName="GetAroundApp/ScheduleTime.cs" Line="15" Column="6" />
+      <File FileName="GetAroundApp/Views/MainPage.xaml" Line="30" Column="36" />
+      <File FileName="GetAroundApp/Views/NewItemPage.xaml" Line="74" Column="55" />
+      <File FileName="GetAroundApp/Views/ItemDetailPage.xaml" Line="125" Column="52" />
+      <File FileName="GetAroundApp/Views/NewItemPage.xaml.cs" Line="40" Column="10" />
+      <File FileName="GetAroundApp/Views/ItemDetailPage.xaml.cs" Line="60" Column="25" />
       <File FileName="GetAroundApp.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="GetAroundApp/obj/Debug/netstandard2.0/Views/ItemDetailPage.xaml.g.cs" Line="37" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -41,7 +41,8 @@ namespace GetAroundApp.Views
 
         void ItemDetailPage_TimeSelected (object sender, EventArgs e)
         {
-            FirstA.Text = "Hi";
+            FirstA.Text = "Harvard";
+            FirstB.Text = "Broadway";
         }
     }
 }

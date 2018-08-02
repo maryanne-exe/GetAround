@@ -25,8 +25,39 @@
     <Jar>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/5/jl/bin/classes.jar</Jar>
     <Jar>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/9/jl/arch-core-common.jar</Jar>
   </Jars>
-  <ResolvedResourceDirectories />
-  <ResolvedAssetDirectories />
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/3/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/6/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/7/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/14/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/17/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/19/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/20/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/21/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/22/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/23/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/24/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/26/jl/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj/Debug/lp/3/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/6/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/7/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/21/jl/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
-  <ResolvedResourceDirectoryStamps />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/6.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/7.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/14.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/17.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/19.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/20.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/21.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/22.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/23.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/24.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.Android/obj/Debug/lp/26.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
 </Paths>

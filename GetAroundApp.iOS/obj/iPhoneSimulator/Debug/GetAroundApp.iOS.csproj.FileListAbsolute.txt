@@ -69,3 +69,7 @@
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/obj/iPhoneSimulator/Debug/GetAroundApp.iOS.exe
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/obj/iPhoneSimulator/Debug/GetAroundApp.iOS.pdb
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/bus.png
+/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/ferry.png
+/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/subway.png
+/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/trip.png

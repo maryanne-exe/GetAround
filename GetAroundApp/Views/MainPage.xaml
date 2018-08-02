@@ -15,7 +15,7 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="500" />
                         <RowDefinition Height="80" />
-                        <RowDefinition Height="150" />
+                        <RowDefinition Height="50" />
                     </Grid.RowDefinitions>
                     
                     <BoxView
@@ -25,10 +25,9 @@
                     <BoxView
                         Grid.Row="1" Grid.Column="0"
                         BackgroundColor="#fff"
-                         />
-                    
+                         />     
                     <BoxView
-                        Grid.Row="2" Grid.Column="0"
+                        Grid.Row="4" Grid.Column="0"
                         BackgroundColor="#5da9e8"
                          />
                 </Grid>
