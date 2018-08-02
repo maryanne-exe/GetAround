@@ -68,3 +68,4 @@
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/obj/iPhoneSimulator/Debug/GetAroundApp.iOS.csproj.CoreCompileInputs.cache
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/obj/iPhoneSimulator/Debug/GetAroundApp.iOS.exe
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/obj/iPhoneSimulator/Debug/GetAroundApp.iOS.pdb
+/Users/maekzemp/Projects/GetAroundApp/GetAroundApp.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll

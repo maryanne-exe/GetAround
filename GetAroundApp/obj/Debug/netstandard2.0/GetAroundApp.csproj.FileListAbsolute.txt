@@ -6,3 +6,4 @@
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp/obj/Debug/netstandard2.0/GetAroundApp.AssemblyInfo.cs
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp/obj/Debug/netstandard2.0/GetAroundApp.dll
 /Users/maekzemp/Projects/GetAroundApp/GetAroundApp/obj/Debug/netstandard2.0/GetAroundApp.pdb
+/Users/maekzemp/Projects/GetAroundApp/GetAroundApp/obj/Debug/netstandard2.0/GetAroundApp.csprojResolveAssemblyReference.cache

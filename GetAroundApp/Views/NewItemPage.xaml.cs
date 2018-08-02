@@ -26,10 +26,22 @@ namespace GetAroundApp.Views
             BindingContext = this;
         }
 
-        async void Save_Clicked(object sender, EventArgs e)
+        //async void Save_Clicked(object sender, EventArgs e)
+        //{
+        //    MessagingCenter.Send(this, "AddItem", Item);
+        //    await Navigation.PopModalAsync();
+        //}
+        private async void Clicked(object sender, EventArgs e)
         {
-            MessagingCenter.Send(this, "AddItem", Item);
-            await Navigation.PopModalAsync();
+            var itemDetailPage = new ItemDetailPage();
+            itemDetailPage.TimeSelected += ItemDetailPage_TimeSelected;
+
+            await Navigation.PushAsync(itemDetailPage);
+        }
+
+        void ItemDetailPage_TimeSelected (object sender, EventArgs e)
+        {
+            FirstA.Text = "Hi";
         }
     }
 }

@@ -164,6 +164,7 @@
 	-r=/Users/maekzemp/.nuget/packages/microsoft.appcenter.analytics/1.8.0/lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll \
 	-r=/Users/maekzemp/.nuget/packages/microsoft.appcenter.crashes/1.8.0/lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll \
 	-r=/Users/maekzemp/.nuget/packages/microsoft.appcenter.crashes/1.8.0/lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll \
+	-r=/Users/maekzemp/.nuget/packages/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll \
 	-r=/Users/maekzemp/.nuget/packages/xamarin.forms/3.0.0.482510/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r=/Users/maekzemp/.nuget/packages/xamarin.forms/3.0.0.482510/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r=/Users/maekzemp/.nuget/packages/xamarin.forms/3.0.0.482510/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \

@@ -55,6 +55,15 @@
           }
         }
       },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -185,6 +194,7 @@
           "Microsoft.AppCenter": "1.8.0",
           "Microsoft.AppCenter.Analytics": "1.8.0",
           "Microsoft.AppCenter.Crashes": "1.8.0",
+          "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -235,6 +245,15 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
         }
       },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -365,6 +384,7 @@
           "Microsoft.AppCenter": "1.8.0",
           "Microsoft.AppCenter.Analytics": "1.8.0",
           "Microsoft.AppCenter.Crashes": "1.8.0",
+          "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -415,6 +435,15 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
         }
       },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -545,6 +574,7 @@
           "Microsoft.AppCenter": "1.8.0",
           "Microsoft.AppCenter.Analytics": "1.8.0",
           "Microsoft.AppCenter.Crashes": "1.8.0",
+          "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -595,6 +625,15 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
         }
       },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -725,6 +764,7 @@
           "Microsoft.AppCenter": "1.8.0",
           "Microsoft.AppCenter.Analytics": "1.8.0",
           "Microsoft.AppCenter.Crashes": "1.8.0",
+          "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -796,6 +836,34 @@
         "runtimes/win10-x86/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
         "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd",
         "runtimes/win10-x86/native/WatsonRegistrationUtility.dll"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "Xamarin.Forms/3.0.0.482510": {

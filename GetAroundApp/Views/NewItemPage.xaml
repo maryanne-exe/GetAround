@@ -3,69 +3,78 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:views="clr-namespace:GetAroundApp.Views"
             x:Class="GetAroundApp.Views.NewItemPage"
-            Title="Today">
+            Title="Today Schedule">
 
     <ContentPage.Content>
         <ScrollView>
-            <Grid>
-                <Label
-                    Text="Plymouth"
-                    Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
-                    HeightRequest="90" WidthRequest="75" HorizontalOptions="Center" VerticalOptions="Center"
-                    TextColor="#165c96"/>
+            <Grid BackgroundColor="#fffae9">
+                <Button Margin="0, 35, 0, 0"
+                        FontFamily="Helvetica"
+                        TextColor="#165c96"
+                        Text="Plymouth"
+                        x:Name="FirstA"
+                        Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                        Clicked="Clicked" />
                 <BoxView
                     Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
                     HeightRequest="150" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="Center" 
                     Color="#145a06" />
-                <BoxView
+                <Image Source="tab_about.png"
                     Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
-                    HeightRequest="24" WidthRequest="24" HorizontalOptions="Center" VerticalOptions="Center" 
-                    Color="#fff" />
-                <!--<Image Source="rail.svg" />-->
-                <Label
-                    Text="South Station"
-                    Grid.Row="2" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
-                    HeightRequest="55" WidthRequest="105" HorizontalOptions="Center" VerticalOptions="Center"
-                    TextColor="#165c96"/>
+                    HeightRequest="24" WidthRequest="24" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Button Margin="0, 180, 0, 0"
+                        FontFamily="Helvetica"
+                        TextColor="#165c96"
+                        Text="South Station"
+                        x:Name="FirstB"
+                        Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                        Clicked="Clicked" />
 
-                <Label
-                    Text="Boston (Long Wharf)"
-                    Grid.Row="2" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
-                    HeightRequest="60" WidthRequest="160" HorizontalOptions="Center" VerticalOptions="Center"
-                    TextColor="#165c96"/>
+                
+                <Button Margin="0, 65, 0, 0"
+                        FontFamily="Helvetica"
+                        TextColor="#165c96"
+                        Text="Boston (Long Wharf)"
+                        x:Name="SecondA"
+                        Grid.Row="2" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                        Clicked="Clicked" />
                 <BoxView
                     Grid.Row="3" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
                     HeightRequest="120" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="Center" 
                     Color="#145a06" />
-                <BoxView
+                <Image Source="tab_about.png"
                     Grid.Row="3" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
-                    HeightRequest="24" WidthRequest="24" HorizontalOptions="Center" VerticalOptions="Center" 
-                    Color="#fff" />
-                <Label
-                    Text="Hingham"
-                    Grid.Row="4" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
-                    HeightRequest="190" WidthRequest="70" HorizontalOptions="Center" VerticalOptions="Center"
-                    TextColor="#165c96"/>
+                    HeightRequest="24" WidthRequest="24" HorizontalOptions="Center" VerticalOptions="Center" />
+                <Button Margin="0, 145, 0, 0"
+                        FontFamily="Helvetica"
+                        TextColor="#165c96"
+                        Text="Hingham"
+                        x:Name="SecondB"
+                        Grid.Row="3" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                        Clicked="Clicked" />
 
 
-                <Label
-                    Text="Waterhouse St @ Massachusetts Ave"
-                    Grid.Row="5" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
-                    HeightRequest="140" WidthRequest="300" HorizontalOptions="Center" VerticalOptions="Center"
-                    TextColor="#165c96"/>
+                <Button Margin="0, 90, 0, 0"
+                        FontFamily="Helvetica"
+                        TextColor="#165c96"
+                        Text="Waterhouse St @ Mass Ave"
+                        x:Name="ThirdA"
+                        Grid.Row="4" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
+                        Clicked="Clicked" />
                 <BoxView
                     Grid.Row="6" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
                     HeightRequest="200" WidthRequest="100" HorizontalOptions="Center" VerticalOptions="Center" 
                     Color="#b3000f" />
-                <BoxView
+                <Image Source="tab_about.png"
                     Grid.Row="6" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"
-                    HeightRequest="24" WidthRequest="24" HorizontalOptions="Center" VerticalOptions="Center" 
-                    Color="#fff" />
-                <Label
-                    Text="Church St @ Lexington St"
-                    Grid.Row="7" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
-                    HeightRequest="100" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center"
-                    TextColor="#165c96"/>
+                    HeightRequest="24" WidthRequest="24" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Button Margin="0, 120, 0, 0"
+                        FontFamily="Helvetica"
+                        TextColor="#165c96"
+                        Text="Church St @ Lexington St"
+                        x:Name="ThirdB"
+                        Grid.Row="6" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2"
+                        Clicked="Clicked" />
 
 
                 
